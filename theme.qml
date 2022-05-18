@@ -1,0 +1,51 @@
+import QtQuick 2.15
+import QtMultimedia 5.15
+FocusScope{
+
+    property int currentCollectionIndex: 0
+    property var currentCollection: api.collections.get(currentCollectionIndex)
+    property var currentGame: currentCollection.games.get(currentCollectionIndex)
+
+    FontLoader { id: mainFont; source: "assets/fonts/contb.ttf" }
+
+    Keys.onLeftPressed: {
+        if(currentCollectionIndex <= 0)
+            currentCollectionIndex = api.collections.count - 1;
+        else
+            currentCollectionIndex--;
+            sPage.play();
+    }
+
+    Keys.onRightPressed: {
+        if(currentCollectionIndex >= api.collections.count - 1)
+            currentCollectionIndex = 0;
+        else
+            currentCollectionIndex++;
+            sPage.play();
+    }  
+
+    RevMenu{
+        id:revmenu
+        anchors.fill: parent
+        focus: true
+        visible: opacity > 0.01
+        opacity: focus ? 1.0 : 0.0
+
+    }
+
+//===================
+//|     Sounds!     |
+//===================
+
+Audio {
+    id: bgmusic
+    source:"assets/sounds/bg.wav"
+    autoPlay: true
+    loops: Audio.Infinite
+    }
+
+SoundEffect{
+    id:sPage
+    source: "assets/sounds/page.wav"
+}
+}
