@@ -6,7 +6,7 @@ This theme seeks to resemble the Wii Menu as much as possible.
 
 Revolution Menu is a theme for [Pegasus Frontend](http://pegasus-frontend.org/).
 
-![(Espaço para print)](/home/andreiesteves/Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202022-05-18%2019-01-27.png)
+
 
 ---
 
