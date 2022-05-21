@@ -66,7 +66,7 @@ FocusScope{
 Audio {
     id: bgmusic
     source:"assets/sounds/bg.wav"
-    //autoPlay: true
+    autoPlay: true
     loops: Audio.Infinite
     }
 
