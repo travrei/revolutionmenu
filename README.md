@@ -34,8 +34,8 @@ What I'm bringing here is everything I know how to do so far, I'll keep studying
     <summary>Changelogs</summary>
     
 ## 0.1.2 </br>
-    1. Changed somethings in code to fix scaling issues. </br>
-    2. Changed the bottom image from .svg to .png </br>
+    1. Changed somethings in code to fix scaling issues.
+    2. Changed the bottom image from .svg to .png
 
 </details>
 
