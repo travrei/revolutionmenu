@@ -4,7 +4,7 @@
 
 This theme seeks to resemble the Wii Menu as much as possible.
 
-![print](screenshots/1.png)
+![print](screenshots/2.png)
 
 ---
 
