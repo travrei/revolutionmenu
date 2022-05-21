@@ -52,9 +52,5 @@ FocusScope {
      }
   }
 
-  BottomBar{
-    z: 2
-  }
-
 }
 
