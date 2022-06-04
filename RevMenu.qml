@@ -49,6 +49,7 @@ FocusScope {
     Keys.onPressed: {
      if(api.keys.isAccept(event))
         currentCollection.games.get(currentIndex).launch();
+        sSelect.play()
     }
   }
 

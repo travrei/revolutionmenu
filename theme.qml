@@ -79,4 +79,8 @@ SoundEffect{
     id:sPage
     source: "assets/sounds/page.wav"
 }
+SoundEffect{
+    id:sSelect
+    source: "assets/sounds/select.wav"
+}
 }
