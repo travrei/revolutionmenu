@@ -3,6 +3,9 @@ import QtGraphicalEffects 1.12
 import QtMultimedia 5.15
 
 Item{
+id:iti
+    property var game
+
     x: 5
     height: 50
     Column {
@@ -41,12 +44,13 @@ Item{
                 fillMode: Image.PreserveAspectCrop
                 smooth: true
                 asynchronous: true
-                source: assets.banner || assets.steam || assets.boxFront
+                source: assets.banner || assets.steam || assets.boxFront || assets.screenshot
             }
             Text{
                 id:title
                 text: modelData.title
                 width: gamecell.width
+                font.family: cellFont.name
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
                 verticalAlignment: Text.AlignVCenter

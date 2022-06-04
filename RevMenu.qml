@@ -46,11 +46,13 @@ FocusScope {
     highlight: highlight
     highlightFollowsCurrentItem: false
 
-     Keys.onPressed: {
-       if(api.keys.isAccept(event))
-         currentCollection.games.get(currentIndex).launch();
-     }
+    Keys.onPressed: {
+     if(api.keys.isAccept(event))
+        currentCollection.games.get(currentIndex).launch();
+    }
   }
+
+  
 
 }
 
