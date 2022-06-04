@@ -32,7 +32,7 @@ What I'm bringing here is everything I know how to do so far, I'll keep studying
 
 <details>
     <summary>Changelogs</summary>
-##0.1.3
+## 0.1.3
 
 ```
 1. Changed some soundeffects
