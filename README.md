@@ -18,7 +18,7 @@ This theme seeks to resemble the Wii Menu as much as possible.
 
 - [ ] Add Options Menu.
 
-- [ ] Make the switch between collections by pages.
+- [ x ] Make the switch between collections by pages.
 
 ---
 
