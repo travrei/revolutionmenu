@@ -31,16 +31,19 @@ What I'm bringing here is everything I know how to do so far, I'll keep studying
 ---
 
 <details>
-    <summary>Changelogs</summary>
-## 0.1.3 </br>
-    1. Changed some soundeffects
-    2. Fixed the bottonbar image issue
-    3. Collections(consoles) now can be changed using page keys (default on keyboard is 'q' and 'e')
+    <summary>Changelogs</summary>
+##0.1.3
 
-## 0.1.2 </br>
-    1. Changed somethings in code to fix scaling issues.
-    2. Changed the bottom image from .svg to .png
+```
+1. Changed some soundeffects
+2. Fixed the bottonbar image issue
+3. Collections(consoles) now can be changed using page keys (default on keyboard is 'q' and 'e')
+```
 
+## 0.1.2
+
+```
+1. Changed somethings in code to fix scaling issues.
+2. Changed the bottom image from .svg to .png
+```
 </details>
-
-
